@@ -1,0 +1,31 @@
+.copygen-btn {
+  margin-top: 35px;
+  background: #111827; /* Dark Black */
+  color: white;
+  padding: 16px 45px;
+  border-radius: 14px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+  /* Smooth Effect */
+  transition: all 0.3s ease;
+
+  /* Shadow Like UI */
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.18);
+}
+
+/* ✅ Hover Effect */
+.copygen-btn:hover {
+  background: #000;
+  transform: translateY(-3px);
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* ✅ Small Note Text */
+.copygen-note {
+  margin-top: 14px;
+  font-size: 15px;
+  color: #6b7280;
+}
